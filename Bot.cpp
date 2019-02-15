@@ -1,7 +1,7 @@
 #include "Bot.h"
 
 void Bot::sendAlertMessage(QString message){
-	static const QString receiver = "17600661085";
+	static const QString receiver = "The phone number";
 	emit this->falltoAlert(receiver, message);
 }
 
